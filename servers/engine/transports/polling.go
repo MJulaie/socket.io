@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/MJulaie/socket.io/parsers/engine/v3/packet"
+	"github.com/MJulaie/socket.io/v3/pkg/log"
+	"github.com/MJulaie/socket.io/v3/pkg/queue"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
+	"github.com/MJulaie/socket.io/v3/pkg/utils"
 	"github.com/andybalholm/brotli"
 	"github.com/klauspost/compress/zstd"
-	"github.com/zishang520/socket.io/parsers/engine/v3/packet"
-	"github.com/zishang520/socket.io/v3/pkg/log"
-	"github.com/zishang520/socket.io/v3/pkg/queue"
-	"github.com/zishang520/socket.io/v3/pkg/types"
-	"github.com/zishang520/socket.io/v3/pkg/utils"
 )
 
 var pollingLog = log.NewLog("engine:polling")

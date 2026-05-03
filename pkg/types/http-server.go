@@ -9,10 +9,10 @@ import (
 	"net"
 	"net/http"
 
+	"github.com/MJulaie/socket.io/v3/pkg/log"
 	"github.com/quic-go/quic-go"
 	"github.com/quic-go/quic-go/http3"
 	"github.com/quic-go/webtransport-go"
-	"github.com/zishang520/socket.io/v3/pkg/log"
 )
 
 var (

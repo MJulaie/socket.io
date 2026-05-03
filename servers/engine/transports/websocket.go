@@ -7,12 +7,12 @@ import (
 	"net"
 	"sync"
 
+	"github.com/MJulaie/socket.io/parsers/engine/v3/packet"
+	"github.com/MJulaie/socket.io/v3/pkg/log"
+	"github.com/MJulaie/socket.io/v3/pkg/queue"
+	"github.com/MJulaie/socket.io/v3/pkg/slices"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
 	ws "github.com/gorilla/websocket"
-	"github.com/zishang520/socket.io/parsers/engine/v3/packet"
-	"github.com/zishang520/socket.io/v3/pkg/log"
-	"github.com/zishang520/socket.io/v3/pkg/queue"
-	"github.com/zishang520/socket.io/v3/pkg/slices"
-	"github.com/zishang520/socket.io/v3/pkg/types"
 )
 
 var wsLog = log.NewLog("engine:ws")

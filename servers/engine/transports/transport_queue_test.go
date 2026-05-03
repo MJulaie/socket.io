@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zishang520/socket.io/v3/pkg/queue"
+	"github.com/MJulaie/socket.io/v3/pkg/queue"
 )
 
 func TestPeerCloseStopsTransportWriteQueue(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/zishang520/socket.io/v3/pkg/utils"
+	"github.com/MJulaie/socket.io/v3/pkg/utils"
 
 	"resty.dev/v3"
 )

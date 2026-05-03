@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/zishang520/socket.io/parsers/engine/v3/packet"
-	"github.com/zishang520/socket.io/servers/engine/v3/transports"
-	"github.com/zishang520/socket.io/v3/pkg/types"
+	"github.com/MJulaie/socket.io/parsers/engine/v3/packet"
+	"github.com/MJulaie/socket.io/servers/engine/v3/transports"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
 )
 
 type (
