@@ -3,7 +3,7 @@ package adapter
 import (
 	"testing"
 
-	"github.com/zishang520/socket.io/adapters/redis/v3"
+	"github.com/MJulaie/socket.io/adapters/redis/v3"
 )
 
 func TestSubscriptionModeConstants(t *testing.T) {

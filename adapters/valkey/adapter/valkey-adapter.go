@@ -11,14 +11,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zishang520/socket.io/adapters/adapter/v3"
-	valkey "github.com/zishang520/socket.io/adapters/valkey/v3"
-	"github.com/zishang520/socket.io/parsers/socket/v3/parser"
-	"github.com/zishang520/socket.io/servers/socket/v3"
-	"github.com/zishang520/socket.io/v3/pkg/log"
-	"github.com/zishang520/socket.io/v3/pkg/slices"
-	"github.com/zishang520/socket.io/v3/pkg/types"
-	"github.com/zishang520/socket.io/v3/pkg/utils"
+	"github.com/MJulaie/socket.io/adapters/adapter/v3"
+	valkey "github.com/MJulaie/socket.io/adapters/valkey/v3"
+	"github.com/MJulaie/socket.io/parsers/socket/v3/parser"
+	"github.com/MJulaie/socket.io/servers/socket/v3"
+	"github.com/MJulaie/socket.io/v3/pkg/log"
+	"github.com/MJulaie/socket.io/v3/pkg/slices"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
+	"github.com/MJulaie/socket.io/v3/pkg/utils"
 )
 
 var valkeyLog = log.NewLog("socket.io-valkey")

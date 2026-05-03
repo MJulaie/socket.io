@@ -1,8 +1,8 @@
 package socket
 
 import (
-	"github.com/zishang520/socket.io/parsers/engine/v3/packet"
-	"github.com/zishang520/socket.io/parsers/socket/v3/parser"
+	"github.com/MJulaie/socket.io/parsers/engine/v3/packet"
+	"github.com/MJulaie/socket.io/parsers/socket/v3/parser"
 )
 
 // ReadyState represents the state of the connection.

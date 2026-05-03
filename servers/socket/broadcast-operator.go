@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zishang520/socket.io/parsers/socket/v3/parser"
-	"github.com/zishang520/socket.io/v3/pkg/types"
-	"github.com/zishang520/socket.io/v3/pkg/utils"
+	"github.com/MJulaie/socket.io/parsers/socket/v3/parser"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
+	"github.com/MJulaie/socket.io/v3/pkg/utils"
 )
 
 // BroadcastOperator is used to broadcast events to multiple clients.

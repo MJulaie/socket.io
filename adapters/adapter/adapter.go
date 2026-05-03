@@ -1,7 +1,7 @@
 package adapter
 
 import (
-	"github.com/zishang520/socket.io/servers/socket/v3"
+	"github.com/MJulaie/socket.io/servers/socket/v3"
 )
 
 // AdapterBuilder is a builder for creating Adapter instances.

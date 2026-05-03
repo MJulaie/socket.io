@@ -2,8 +2,8 @@
 package adapter
 
 import (
-	"github.com/zishang520/socket.io/adapters/adapter/v3"
-	"github.com/zishang520/socket.io/v3/pkg/types"
+	"github.com/MJulaie/socket.io/adapters/adapter/v3"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
 )
 
 const (

@@ -2,8 +2,8 @@
 package adapter
 
 import (
-	valkey "github.com/zishang520/socket.io/adapters/valkey/v3"
-	"github.com/zishang520/socket.io/v3/pkg/types"
+	valkey "github.com/MJulaie/socket.io/adapters/valkey/v3"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
 )
 
 const (

@@ -13,10 +13,10 @@
 package socket
 
 import (
-	"github.com/zishang520/socket.io/clients/engine/v3/transports"
-	"github.com/zishang520/socket.io/v3/pkg/log"
-	"github.com/zishang520/socket.io/v3/pkg/types"
-	"github.com/zishang520/socket.io/v3/pkg/utils"
+	"github.com/MJulaie/socket.io/clients/engine/v3/transports"
+	"github.com/MJulaie/socket.io/v3/pkg/log"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
+	"github.com/MJulaie/socket.io/v3/pkg/utils"
 )
 
 var (

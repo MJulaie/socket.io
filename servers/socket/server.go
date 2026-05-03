@@ -14,13 +14,13 @@ import (
 
 	"github.com/andybalholm/brotli"
 	"github.com/klauspost/compress/zstd"
-	"github.com/zishang520/socket.io/parsers/socket/v3/parser"
-	"github.com/zishang520/socket.io/servers/engine/v3"
-	"github.com/zishang520/socket.io/v3/pkg/log"
-	"github.com/zishang520/socket.io/v3/pkg/slices"
-	"github.com/zishang520/socket.io/v3/pkg/types"
-	"github.com/zishang520/socket.io/v3/pkg/utils"
-	"github.com/zishang520/socket.io/v3/pkg/version"
+	"github.com/MJulaie/socket.io/parsers/socket/v3/parser"
+	"github.com/MJulaie/socket.io/servers/engine/v3"
+	"github.com/MJulaie/socket.io/v3/pkg/log"
+	"github.com/MJulaie/socket.io/v3/pkg/slices"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
+	"github.com/MJulaie/socket.io/v3/pkg/utils"
+	"github.com/MJulaie/socket.io/v3/pkg/version"
 )
 
 const (
@@ -45,8 +45,8 @@ type (
 	// Represents a Socket.IO server.
 	//
 	//	import (
-	//		"github.com/zishang520/socket.io/v3/pkg/utils"
-	//		"github.com/zishang520/socket.io/servers/socket/v3"
+	//		"github.com/MJulaie/socket.io/v3/pkg/utils"
+	//		"github.com/MJulaie/socket.io/servers/socket/v3"
 	//	)
 	//
 	//	io := socket.NewServer(nil, nil)

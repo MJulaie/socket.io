@@ -1,11 +1,11 @@
-module github.com/zishang520/socket.io/adapters/adapter/v3
+module github.com/MJulaie/socket.io/adapters/adapter/v3
 
 go 1.26.0
 
 require (
-	github.com/zishang520/socket.io/parsers/socket/v3 v3.0.2
-	github.com/zishang520/socket.io/servers/socket/v3 v3.0.2
-	github.com/zishang520/socket.io/v3 v3.0.2
+	github.com/MJulaie/socket.io/parsers/socket/v3 v3.0.2
+	github.com/MJulaie/socket.io/servers/socket/v3 v3.0.2
+	github.com/MJulaie/socket.io/v3 v3.0.2
 )
 
 require (
@@ -20,8 +20,8 @@ require (
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
-	github.com/zishang520/socket.io/parsers/engine/v3 v3.0.2 // indirect
-	github.com/zishang520/socket.io/servers/engine/v3 v3.0.2 // indirect
+	github.com/MJulaie/socket.io/parsers/engine/v3 v3.0.2 // indirect
+	github.com/MJulaie/socket.io/servers/engine/v3 v3.0.2 // indirect
 	golang.org/x/crypto v0.50.0 // indirect
 	golang.org/x/net v0.53.0 // indirect
 	golang.org/x/sys v0.43.0 // indirect
@@ -29,9 +29,9 @@ require (
 )
 
 replace (
-	github.com/zishang520/socket.io/parsers/engine/v3 => ../../parsers/engine
-	github.com/zishang520/socket.io/parsers/socket/v3 => ../../parsers/socket
-	github.com/zishang520/socket.io/servers/engine/v3 => ../../servers/engine
-	github.com/zishang520/socket.io/servers/socket/v3 => ../../servers/socket
-	github.com/zishang520/socket.io/v3 => ../../
+	github.com/MJulaie/socket.io/parsers/engine/v3 => ../../parsers/engine
+	github.com/MJulaie/socket.io/parsers/socket/v3 => ../../parsers/socket
+	github.com/MJulaie/socket.io/servers/engine/v3 => ../../servers/engine
+	github.com/MJulaie/socket.io/servers/socket/v3 => ../../servers/socket
+	github.com/MJulaie/socket.io/v3 => ../../
 )

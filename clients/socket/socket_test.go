@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	client "github.com/zishang520/socket.io/clients/socket/v3"
-	server "github.com/zishang520/socket.io/servers/socket/v3"
-	"github.com/zishang520/socket.io/v3/pkg/types"
+	client "github.com/MJulaie/socket.io/clients/socket/v3"
+	server "github.com/MJulaie/socket.io/servers/socket/v3"
+	"github.com/MJulaie/socket.io/v3/pkg/types"
 )
 
 // ExampleSocket_basic demonstrates the basic usage of Socket.IO client

@@ -3,9 +3,9 @@
 package emitter
 
 import (
-	"github.com/zishang520/socket.io/adapters/adapter/v3"
-	valkey "github.com/zishang520/socket.io/adapters/valkey/v3"
-	"github.com/zishang520/socket.io/servers/socket/v3"
+	"github.com/MJulaie/socket.io/adapters/adapter/v3"
+	valkey "github.com/MJulaie/socket.io/adapters/valkey/v3"
+	"github.com/MJulaie/socket.io/servers/socket/v3"
 )
 
 type (
